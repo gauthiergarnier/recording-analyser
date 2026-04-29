@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated artefacts
+*.16k.wav
+*.transcript.json
+*.transcript.txt
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+.claude/
