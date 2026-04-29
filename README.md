@@ -1,5 +1,8 @@
 # recording-analyser
 
+[![ci](https://github.com/gauthiergarnier/recording-analyser/actions/workflows/ci.yml/badge.svg)](https://github.com/gauthiergarnier/recording-analyser/actions/workflows/ci.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Turn an audio recording (a meeting, an interview, a phone call) into a **readable transcript with speaker labels**.
 
 Built on top of [WhisperX](https://github.com/m-bain/whisperX) for speech recognition + word-level alignment and [pyannote-audio](https://github.com/pyannote/pyannote-audio) for speaker diarization. Runs locally — your audio never leaves your machine.
